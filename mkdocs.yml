@@ -1,0 +1,73 @@
+site_name: NOMAD ELN Manual
+site_description: Documentation for the NOMAD Electronic Laboratory Notebook
+site_author: Your Institute
+
+theme:
+  name: material
+
+  language: en
+
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+  palette:
+
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+markdown_extensions:
+
+  - admonition
+
+  - pymdownx.details
+
+  - pymdownx.superfences
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - attr_list
+
+  - md_in_html
+
+  - tables
+
+plugins:
+  - search
+
+nav:
+
+  - Home: index.md
+
+  - Getting Started:
+      - Installation: installation.md
+      - First Login: getting_started.md
+      - Dashboard: dashboard.md
+
+  - Working with NOMAD:
+      - Entries: entries.md
+      - Uploads: uploads.md
+      - Metadata: metadata.md
+      - Workflows: workflows.md
+
+  - Search: search.md
+
+  - FAQ: faq.md
