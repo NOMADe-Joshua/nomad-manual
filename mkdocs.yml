@@ -5,20 +5,28 @@ site_author: Your Institute
 theme:
   name: material
 
-  language: en
+  logo: assets/images/Ulilogo.png
+  favicon: assets/images/favicon.ico
+
+  icon:
+    repo: fontawesome/brands/github
 
   features:
     - navigation.instant
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.footer
+    - content.code.annotate
+    - toc.follow
     - search.highlight
+    - search.share
     - search.suggest
     - content.code.copy
     - content.tabs.link
+    - content.tooltips
 
   palette:
-
     - scheme: default
       primary: blue
       accent: indigo
@@ -34,40 +42,52 @@ theme:
         name: Light mode
 
 markdown_extensions:
-
   - admonition
-
   - pymdownx.details
-
-  - pymdownx.superfences
-
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
-
   - attr_list
-
   - md_in_html
-
   - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NOMADe-Joshua/nomad-manual
+      name: GitHub
+
+copyright: |
+  © 2026 NOMAD ELN Documentation – Maintained by Joshua Damm
+
+extra_css:
+  - assets/css/extra.css
+
 nav:
-
   - Home: index.md
-
   - Getting Started:
-      - Installation: installation.md
-      - First Login: getting_started.md
+      - ELN Overview: waseineln.md
+      - Create an Account: account.md
+      - First Upload: firstupload.md
       - Dashboard: dashboard.md
-
-  - Working with NOMAD:
-      - Entries: entries.md
-      - Uploads: uploads.md
-      - Metadata: metadata.md
-      - Workflows: workflows.md
-
-  - Search: search.md
-
+  - Voilá Scripts:
+      - Excel Creator: ExcelCreator.md
+      - Data Tools: DataTools.md
+      - Batchoverview: Batchoverview.md
+      - JV: JV.md
+      - EQE: EQE.md
+      - MPP: MPP.md
+      - UVVis: UVVis.md
+      - PLQY: PLQY.md
+      - SEM Crystal Counter: SEMCrystalCounter.md
   - FAQ: faq.md
