@@ -1,1 +1,1 @@
-Manual for our NOMAD Oasis. Request contributor access, git clone the project, activate the venv and run `mkdocs serve`. The local version will run under http://127.0.0.1:8000/ in your browser. 
+Manual for our NOMAD Oasis. Request contributor access, git clone the project, activate the venv and run `mkdocs serve`. The local version will run under http://127.0.0.1:8000/ in your browser. The git project is set to automatically update the real website (https://nomade-joshua.github.io/nomad-manual/) if you commit your changes.
