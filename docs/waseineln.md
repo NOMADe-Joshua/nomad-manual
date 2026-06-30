@@ -5,7 +5,7 @@
 The NOMAD ecosystem is built around a distributed structure of **local NOMAD Oasis instances** and a **global NOMAD infrastructure**.
 
 Each laboratory or institution operates its own Oasis, while data can optionally be shared and integrated into the global NOMAD database.
-
+![](assets/images/NOMADoverview.png){ .shadow width="1100" } 
 ---
 
 ## NOMAD Oasis Workflow

@@ -6,7 +6,7 @@ theme:
   name: material
 
   logo: assets/images/Ulilogo.png
-  favicon: assets/images/favicon.ico
+  favicon: assets/images/forest.png
 
   icon:
     repo: fontawesome/brands/github
@@ -65,7 +65,11 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/NOMADe-Joshua/nomad-manual
-      name: GitHub
+      name: GitHub repository
+
+    - icon: material/palette
+      link: https://www.flaticon.com/authors/egistudio
+      name: Icon Design
 
 copyright: |
   © 2026 NOMAD ELN Documentation – Maintained by Joshua Damm
