@@ -85,8 +85,8 @@ nav:
       - First Upload: firstupload.md
       - Dashboard: dashboard.md
   - Voilá Scripts:
-      - Excel Creator: ExcelCreator.md
-      - Data Tools: DataTools.md
+      - Excel Creator: Excelcreator.md
+      - Data Tools: Datatools.md
       - Batchoverview: Batchoverview.md
       - JV: JV.md
       - EQE: EQE.md
