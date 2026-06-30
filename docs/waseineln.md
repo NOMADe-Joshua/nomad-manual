@@ -2,43 +2,11 @@
 
 # NOMAD Oasis – System Architecture & Workflow
 
-The NOMAD ecosystem is built around a distributed structure of **local NOMAD Oasis instances** and a **global NOMAD infrastructure**.
-
-Each laboratory or institution operates its own Oasis, while data can optionally be shared and integrated into the global NOMAD database.
+The NOMAD ecosystem is built around a distributed structure of **local NOMAD Oasis instances** and a **global NOMAD infrastructure**. Each laboratory or institution operates its own Oasis, while data can optionally be shared and integrated into the global NOMAD database.
+---
 ![](assets/images/NOMADoverview.png){ .shadow width="1100" } 
 ---
-
-## NOMAD Oasis Workflow
-
-```mermaid
-flowchart TD
-    %% --- LOCAL LAB ENVIRONMENT ---
-    subgraph LocalOasis ["1. Local Oasis (Your Laboratory)"]
-        A["Experiment in Lab"] --> B["Create Entry (Unique ID)"]
-        B --> C["Upload Raw Data"]
-    end
-
-    %% --- AUTOMATIC PROCESSING ---
-    subgraph DataProc ["2. Data Upload & Parsing"]
-        C --> D{"Automatic Parsing"}
-        D --> E["Metadata Extraction"]
-        E --> F(["Digital Twin Created"])
-    end
-
-    %% --- OPTIONAL GLOBAL TRANSFER ---
-    F --> G
-
-    %% --- GLOBAL INFRASTRUCTURE ---
-    subgraph GlobalNomad ["3. Global NOMAD Integration & Reuse"]
-        G[("Central Database (MongoDB)")] --> H["Classification System"]
-        H --> I["Search, Discovery & Reuse"]
-    end
-
-    %% Styling für den Fokus (Digitaler Zwilling & Ziel)
-    style F fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px;
-    style I fill:#e8f5e9,stroke:#4caf50,stroke-width:2px;
-```
----
+Within the FAIR data managment, NOMAD provides the base structure, where we can develop our specific classes, materials, parsers and metadata on. With the Voilá script, we can access the structured data via api calls, analyze the data, plot and download them.
 
 ## How the System Works
 
@@ -51,7 +19,8 @@ Here researchers can:
 - create experiments
 - assign **unique entry IDs**
 - upload raw measurement or simulation data
-- manage internal projects
+- share their data
+- analyse their data
 
 ---
 
@@ -59,9 +28,9 @@ Here researchers can:
 
 Once data is uploaded:
 
-- raw files are processed by NOMAD parsers
-- relevant metadata is automatically extracted
-- data is normalized into structured formats
+- raw files are processed by our self-written parsers
+- relevant metadata are automatically extracted from the head lines or by parsing the raw data
+- data is normalized into structured formats, that are accessable
 
 This ensures that heterogeneous experimental data becomes **machine-readable and standardized**.
 
@@ -69,11 +38,12 @@ This ensures that heterogeneous experimental data becomes **machine-readable and
 
 ### 3. Digital Twin Creation
 
-After parsing, NOMAD generates a structured representation of the experiment:
+After parsing your experimental plan, NOMAD generates a structured representation of the experiment:
 
-- samples are mapped to substrates
-- experimental conditions are linked
-- measurement data is structured and validated
+- experiments are mapped to substrates
+- the experimental conditions are linked
+- measurement data can be mapped to the substrates
+- you get a structure, that creates a digital twin of your sample with all your uploaded measurements
 
 ➡️ This results in a **digital twin of the physical experiment**
 
@@ -84,7 +54,6 @@ After parsing, NOMAD generates a structured representation of the experiment:
 If data is shared externally:
 
 - it is transferred to the global NOMAD infrastructure
-- stored in a distributed **MongoDB-based system**
 - classified into scientific data categories
 - indexed for search and reuse
 
@@ -92,12 +61,13 @@ If data is shared externally:
 
 ### 5. Data Discovery & Reuse
 
-In the global system, data becomes:
+In the local and global system, data becomes:
 
 - searchable
 - comparable
 - reusable
 - linkable across experiments and groups
+- we can create a big data basis, but you can decide for each batch, whether you want to share it or not
 
 This enables cross-laboratory collaboration and large-scale data analysis.
 
@@ -112,9 +82,3 @@ This enables cross-laboratory collaboration and large-scale data analysis.
     This allows every experiment to become part of a structured, searchable and reusable scientific knowledge graph.
 
 ---
-
-## Summary Workflow
-
-```text
-Experiment → Entry ID → Raw Data Upload → Parsing → Metadata → Digital Twin → (Optional) Global Database → Classification & Search
-```
