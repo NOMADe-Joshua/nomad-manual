@@ -55,7 +55,7 @@ The measurement files can be set together by the `unique ID.measurement.ending`.
 Go as in the video shown to: `Publish` &rarr; `Uploads`and click on `Create a new Upload`. In the picture below you can see the important buttons for you in red. You can give your upload a name, share it with people or groups, reprocess the upload and upload your files. **The black rectangle and everything below is for publishing data global, what you don´t want in the beginning**. 
 
 <video autoplay muted loop playsinline preload="auto" 
-       src="/assets/images/first-upload.mp4" 
+       src="../assets/images/first-upload.mp4" 
        class="md-shadow" 
        style="width: 100%; max-width: 1100px; border-radius: 8px; overflow: hidden; display: block;">
 </video>
@@ -63,7 +63,7 @@ Go as in the video shown to: `Publish` &rarr; `Uploads`and click on `Create a ne
 Please share your data with people. By clicking on group instead of user, you can search for `pero`and find a few groups: all, nextGen, tandem, printCoat, vapor and test. Please share your data in all, so everyone can see them. If you don´t want to share them with everyone, share them at least for your subgroup (nextGen &rarr; Ulis subgoup, vapor &rarr; Pauls subgroup, tandem &rarr; Renjuns subgroup, printCoat &rarr; currently also Ulis subgroup). If your uploaded data, don`t show SUCCESS, but FAILURE, click on reprocess. If it doesn´t work the second time, ask somebody for help.
 
 <div class="md-shadow" style="width: 100%; max-width: 1100px; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
-  <img src="/assets/images/first-upload.png" 
+  <img src="../assets/images/first-upload.png" 
        loading="eager"
        style="width: 100%; display: block; transition: transform 0.1s ease-out;"
        onmousemove="
@@ -71,12 +71,10 @@ Please share your data with people. By clicking on group instead of user, you ca
          const rect = this.getBoundingClientRect();
          const x = (e.clientX - rect.left) / rect.width * 100;
          const y = (e.clientY - rect.top) / rect.height * 100;
-         this.style.transformOrigin = `${x}% ${y}%`;
+         this.style.transformOrigin = x + '% ' + y + '%';
          this.style.transform = 'scale(1.8)';
        "
-       onmouseleave="
-         this.style.transform = 'scale(1)';
-       ">
+       onmouseleave="this.style.transform = 'scale(1)';">
 </div>
 
 ## Access your data
