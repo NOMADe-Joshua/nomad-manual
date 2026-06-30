@@ -54,11 +54,7 @@ The measurement files can be set together by the `unique ID.measurement.ending`.
 
 Go as in the video shown to: `Publish` &rarr; `Uploads`and click on `Create a new Upload`. In the picture below you can see the important buttons for you in red. You can give your upload a name, share it with people or groups, reprocess the upload and upload your files. **The black rectangle and everything below is for publishing data global, what you don´t want in the beginning**. 
 
-<video src="/assets/images/first-upload.mp4" 
-       autoplay 
-       loop 
-       muted 
-       playsinline 
+<video autoplay muted loop playsinline preload="auto" src="/assets/images/first-upload.mp4" 
        class="md-shadow" 
        style="width: 100%; max-width: 1100px; border-radius: 8px; overflow: hidden;">
 </video>
@@ -67,6 +63,7 @@ Please share your data with people. By clicking on group instead of user, you ca
 
 <div class="md-shadow" style="width: 100%; max-width: 1100px; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
   <img src="/assets/images/first-upload.png" 
+       loading = "eager"
        style="width: 100%; display: block; transition: transform 0.1s ease-out;"
        onmousemove="
          const rect = this.getBoundingClientRect();
