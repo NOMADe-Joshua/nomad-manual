@@ -84,6 +84,7 @@ nav:
       - ELN Overview: waseineln.md
       - Create an Account: account.md
       - First Upload: firstupload.md
+      - Trouble Shooting: troubleshooting.md
   - Voilá Scripts:
       - Excel Creator: Excelcreator.md
       - Data Tools: Datatools.md
