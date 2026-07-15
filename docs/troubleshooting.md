@@ -69,4 +69,4 @@ With checking the Excel file again, you can see in the red box, that the Cleanin
 
 ## What to do, if your upload says `SUCCESS`, but the Voilá script can´t load your data?
 
-In 99% of the cases your uploaded raw data and your unique IDs defined in your Excel are not the same and the ELN can´t map your measurements on the created substrates. Please check the names in your Excel file and of your measurements, before asking.
+In 99% of the cases your uploaded raw data and your unique IDs defined in your Excel are not the same and the ELN can´t map your measurements on the created substrates. Please check the names in your Excel file and of your measurements before asking.
