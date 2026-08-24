@@ -72,8 +72,7 @@ extra:
       link: https://www.flaticon.com/authors/egistudio
       name: Icon Design
 
-copyright: |
-  © 2026 NOMAD ELN Documentation – Maintained by Joshua Damm
+copyright: © 2026 NOMAD ELN Documentation – Maintained by <a href="https://www.lti.kit.edu/mitarbeiter_10223.php" target="_blank" rel="noopener noreferrer"><u>Joshua Damm</u></a>
 
 extra_css:
   - assets/css/extra.css
@@ -88,7 +87,7 @@ nav:
   - Voilá Scripts:
       - Excel Creator: Excelcreator.md
       - Data Tools: Datatools.md
-      - Batchoverview: Batchoverview.md
+      - Batch overview: Batchoverview.md
       - JV: JV.md
       - EQE: EQE.md
       - MPP: MPP.md
