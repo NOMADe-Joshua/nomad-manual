@@ -39,6 +39,11 @@ The goal for everyone is to create an absolute unique ID per substrate. The stan
     <td>&rarr;</td>
     <td>sem</td>
   </tr>
+  <tr>
+    <td>XRD</td>
+    <td>&rarr;</td>
+    <td>xrd</td>
+  </tr>
 </table>
 
 The measurement files can be set together by the `unique ID.measurement.ending`. For example: `KIT_JoDa_20260603_testbatch_1_A1.jv.txt`. Even better is to give the pixel information, if availabe, and the cycle information. They can be given together or just one of them: `unique ID.pxNCycle_M.measurement.ending`, `unique ID.pxN.measurement.ending` or `unique ID.Cycle_M.measurement.ending`, where N and M are natural numbers and M starts at 0 e.g. `KIT_JoDa_20260603_testbatch_1_A1.px1Cycle_0.jv.txt`. If you measure e.g. multiple times PLQY on one sample, the only chance to upload all of them is adding different cycles + you can not add pixel informations. Another extra information can be given with the EQE measurement. As you might have different measurements due to different layers, you can give there the junction information: `bottom`, `middle`, `top`or you do not write anything. See: `unique ID.position.pxNCycle_M.measurement.ending` or `KIT_JoDa_20260603_testbatch_1_A1.bottom.px1Cycle_0.eqe.txt`. For help with automated renaming, see [Data Tools](Datatools.md).
@@ -60,7 +65,7 @@ Go as in the video shown to: `Publish` &rarr; `Uploads`and click on `Create a ne
        style="width: 100%; max-width: 1100px; border-radius: 8px; overflow: hidden; display: block;">
 </video>
 
-Please share your data with people. By clicking on group instead of user, you can search for `pero`and find a few groups: all, nextGen, tandem, printCoat, vapor and test. Please share your data in all, so everyone can see them. If you don´t want to share them with everyone, share them at least for your subgroup (nextGen &rarr; Ulis subgoup, vapor &rarr; Pauls subgroup, tandem &rarr; Renjuns subgroup, printCoat &rarr; currently also Ulis subgroup). If your uploaded data, don`t show SUCCESS, but FAILURE, click on reprocess. If it doesn´t work the second time, ask somebody for help.
+Please share your data with people. By clicking on group instead of user, you can search for `pero`and find a few groups: all, nextGen, tandem, printCoat, vapor and test. Please share your data in all, so everyone can see them. If you don´t want to share them with everyone, share them at least for your subgroup (nextGen &rarr; Ulis subgoup, vapor &rarr; Pauls subgroup, tandem &rarr; Renjuns subgroup, printCoat &rarr; currently also Ulis subgroup). If your uploaded data, don`t show SUCCESS, but FAILURE, click on reprocess. If it doesn´t work the second time, go to [Trouble Shooting](troubleshooting.md).
 
 <div class="md-shadow" style="width: 100%; max-width: 1100px; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
   <img src="../assets/images/first-upload.png" 
