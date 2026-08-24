@@ -20,3 +20,5 @@ Once the script started, you can add your process steps manually by clicking the
        "
        onmouseleave="this.style.transform = 'scale(1)';">
 </div>
+
+Download the Excel file by clicking `Generate Excel`and `Download`at the bottom. With the `Add example values on 1st row` checkbox you can decide, whether you want some standard values for your proccesses in your first line of the Excel file. 
