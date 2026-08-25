@@ -67,7 +67,7 @@ Go as in the video shown to: `Publish` &rarr; `Uploads`and click on `Create a ne
 
 Please share your data with people. By clicking on group instead of user, you can search for `pero`and find a few groups: all, nextGen, tandem, printCoat, vapor and test. Please share your data in all, so everyone can see them. If you don´t want to share them with everyone, share them at least for your subgroup (nextGen &rarr; Ulis subgoup, vapor &rarr; Pauls subgroup, tandem &rarr; Renjuns subgroup, printCoat &rarr; currently also Ulis subgroup). If your uploaded data, don`t show SUCCESS, but FAILURE, click on reprocess. If it doesn´t work the second time, go to [Trouble Shooting](troubleshooting.md).
 
-<div class="md-shadow" style="width: 100%; max-width: 1100px; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
+<div class="md-shadow" style="width: 100%; max-width: 1100px; border: 1px solid black; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
   <img src="../assets/images/first-upload.png" 
        loading="eager"
        style="width: 100%; display: block; transition: transform 0.1s ease-out;"

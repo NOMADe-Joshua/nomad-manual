@@ -6,7 +6,7 @@ How to create an Excel sheet, that mirrors your process? Go to [Voilá](http://e
 
 Once the script started, you can add your process steps manually by clicking the plus at `Process Sequences` to add more steps and choosing the process by clicking on `Experiment info`. Easier is to click on `Select Template` and `Apply`. Like this, you can load a standard process sequence and add or change the steps you need. If you want to have your own standard process, write me a mail: [📧 E-Mail to Joshua](mailto:joshua.damm@kit.edu?subject=Request for ELN Excel template&body=Hey%2C%0A%0AI%20want%20an%20ELN%20Excel%20template%20with%20the%20following%20process%20steps:)
 
-<div class="md-shadow" style="width: 100%; max-width: 1100px; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
+<div class="md-shadow" style="width: 100%; max-width: 1100px; border: 1px solid black; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
   <img src="../assets/images/ExcelCreator_1.png" 
        loading="eager"
        style="width: 100%; display: block; transition: transform 0.1s ease-out;"
