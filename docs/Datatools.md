@@ -1,6 +1,6 @@
 # Renaming or splitting files and correct file name endings &rarr; Data Tools
 
-As the software of most of our measurement setups does not work nicely together with the structure of the ELN, the Voila script Data Tools should help you renaming your data, adding the right ending to your file names or split the files (puri). Go to [Voilá](http://elnserver.lti.kit.edu/nomad-oasis/gui/search/voila){ .md-button .md-button--primary .small-button target="_blank" rel="noopener noreferrer"} and start the `Data Tools` script with the :material-open-in-new: button on the right. 
+As the software of most of our measurement setups does not work nicely together with the structure of the ELN, the Voila script Data Tools should help you renaming your data, adding the right ending to your file names or split the files (puri). Go to [Voilá](http://elnserver.lti.kit.edu/nomad-oasis/gui/search/voila){ .md-button .md-button--primary .small-button target="_blank" rel="noopener noreferrer"} and start the `Data Tools` script with the :material-open-in-new: button on the right. If you work with data, you can always manipulate the structure and name and download the data again as a zip. You don´t need to unpack them as the ELN accepts zips and can unpack them itself.
 
 <div class="md-shadow" style="width: 100%; max-width: 1100px; border: 1px solid black; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
   <img src="../assets/images/DataTools_1.png" 
