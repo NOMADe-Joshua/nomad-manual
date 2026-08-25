@@ -1,6 +1,6 @@
 # Excel Creator 
 
-How to create an Excel sheet, that mirrors your process? Go to [Voilá](http://elnserver.lti.kit.edu/nomad-oasis/gui/search/voila){ .md-button .md-button--primary .small-button target="_blank" rel="noopener noreferrer"} and start the `Excel Creator` script with the square + arrow button on the right. 
+How to create an Excel sheet, that mirrors your process? Go to [Voilá](http://elnserver.lti.kit.edu/nomad-oasis/gui/search/voila){ .md-button .md-button--primary .small-button target="_blank" rel="noopener noreferrer"} and start the `Excel Creator` script with the :material-open-in-new: button on the right. 
 
 ---
 
