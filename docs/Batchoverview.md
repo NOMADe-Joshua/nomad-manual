@@ -48,7 +48,7 @@ In the following picture you can see something unexpected. There are relatable v
        onmouseleave="this.style.transform = 'scale(1)';">
 </div>
 
-By clicking on detail, you can see that the user did not write `O2` for the plasma in this example, but enumerated the numer to O3, O4, O5, ... The Batch Overview script helps you to detect these mistakes. 
+By clicking on detail, you can see that the user did not write `O2` for the plasma in this example, but enumerated the numer to O3, O4, O5, ... The Batch Overview script helps you to detect most of the common mistakes. 
 
 <div class="md-shadow" style="width: 100%; max-width: 1100px; border: 1px solid black; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
   <img src="../assets/images/OverView_3.png" 
